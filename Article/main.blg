@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Database file #1: bibliographie.bib
+Too many commas in name 1 of "P. Molchanov, P. Tyree, S. Karras, T. Aila, J. Kautz" for entry ref44
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "P. Molchanov, P. Tyree, S. Karras, T. Aila, J. Kautz" for entry ref44
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "V. Sze,Y. Chen, H. Yang, J. Emer" for entry ref55
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "P. Molchanov, P. Tyree, S. Karras, T. Aila, J. Kautz" for entry ref44
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "P. Molchanov, P. Tyree, S. Karras, T. Aila, J. Kautz" for entry ref44
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "V. Sze,Y. Chen, H. Yang, J. Emer" for entry ref55
+while executing---line 1090 of file plain.bst
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            521 strings with 4681 characters,
+and the built_in function-call counts, 1042 in all, are:
+= -- 100
+> -- 35
+< -- 0
++ -- 16
+- -- 10
+* -- 42
+:= -- 204
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 50
+empty$ -- 86
+format.name$ -- 10
+if$ -- 206
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 26
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 0
+while$ -- 10
+width$ -- 6
+write$ -- 52
+(There were 6 error messages)

@@ -1,0 +1,57 @@
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
+\usepackage{sectsty} % Enables custom section titles
+\usepackage{fancyhdr} % Needed to define custom headers/footers
+\pagestyle{fancy} % Enables the custom headers/footers
+\usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
+\usepackage{lettrine} % Package to accentuate the first letter of the text
+\usepackage{titling} % Allows custom title configuration
+\usepackage{graphicx}
+
+\renewcommand{\headrulewidth}{0.0pt} % No header rule
+\renewcommand{\footrulewidth}{0.4pt} % Thin footer rule
+
+\newcommand{\HorRule}{\color{DarkGoldenrod} \rule{\linewidth}{1pt}} % Defines the gold horizontal rule around the title
+\newcommand{\initial}[1]{ % Defines the command and style for the first letter
+	\lettrine[lines=3,lhang=0.3,nindent=0em]{
+		\color{DarkGoldenrod}
+		{\textsf{#1}}}{}}
+
+\allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
+
+% Headers - all currently empty
+\lhead{}
+\chead{}
+\rhead{}
+
+% Footers
+\lfoot{}
+\cfoot{}
+\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}} % "Page 1 of 2"
+
+%--------------------------------------------------------------------------
+\pretitle{\vspace{-70pt} \begin{flushleft} \HorRule \fontsize{25}{25} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont} % Horizontal rule before the title
+	
+	\title{\begin{center}
+			Lightweight Neural Networks (Pruning Algorithm)
+	\end{center}} % Your article title
+	
+	\posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
+
+\preauthor{\begin{flushleft}\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}} % Author font configuration
+	
+	\author{Abd Elfattah Fahym, Youness Iziria, Aymane Cherki } % Your name
+	
+	\postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} % Configuration for the institution name
+		 % Your institution
+		
+		\par\end{flushleft}\HorRule} % Horizontal rule after the title
+
+\date{May 26, 2023} % Add a date here if you would like one to appear underneath the title block
+%--------------------------------------------------------------------------

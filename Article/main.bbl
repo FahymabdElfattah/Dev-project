@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{ref22}
+S.~Han.
+\newblock Deep compression: Compressing deep neural networks with pruning,
+  trained quantization and huffman coding.
+\newblock {\em arXiv preprint arXiv:1510.00149}, 2016.
+
+\bibitem{ref33}
+M.~Carbin J.~Frankle.
+\newblock The lottery ticket hypothesis: Finding sparse, trainable neural
+  networks.
+\newblock {\em arXiv preprint arXiv:1803.03635}, 2019.
+
+\bibitem{ref44}
+S.~Karras T. Aila J.~Kautz P.~Molchanov, P.~Tyree.
+\newblock Pruning convolutional neural networks for resource efficient
+  inference.
+\newblock {\em arXiv preprint arXiv:1611.06440}, 2019.
+
+\bibitem{ref11}
+Szeliski.
+\newblock Computer vision:algorithms and applications.
+\newblock {\em Springer Science and Business Media}, 2010.
+
+\bibitem{ref55}
+H.~Yang J.~Emer V.~Sze, Y.~Chen.
+\newblock Efficient processing of deep neural networks: A tutorial and survey.
+\newblock {\em Proceedings of the IEEE, 105(12), 2295-2329}, 2017.
+
+\end{thebibliography}
